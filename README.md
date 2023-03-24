@@ -7,8 +7,8 @@ This tool combines 5 different subdomain discovery tools. Then it filters the st
 ## 1. Installation
 
 ```
-git clone
-cd 
+git clone https://github.com/Mr0Wido/Subdomain-Toolkit.git
+cd Subdomain-Toolkit
 python3 setup.py install
 ```
 
