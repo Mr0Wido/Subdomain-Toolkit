@@ -41,5 +41,8 @@ chmod +x subdomain
 subdomain -u <target-domain>
 ```
 
-https://user-images.githubusercontent.com/88449391/227599352-afd5d2a5-9634-4960-999b-8e885143718d.mp4
+https://user-images.githubusercontent.com/88449391/227714949-b3289792-926a-4f31-af8a-bc6ddc6e2825.mp4
+
+
+
 
