@@ -4,6 +4,7 @@ import subprocess
 from tqdm import tqdm
 import requests
 import subprocess
+import argparse
 
 # Subdomain Tools
 subdomain_tools = ['sublist3r', 'amass', 'subfinder', 'assetfinder', 'findomain']
