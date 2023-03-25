@@ -16,7 +16,7 @@ python3 setup.py install
 ## 2. Usage
 
 ```
-python3 subdomain.py
+subdomain -u <target-domain>
 ```
 
 https://user-images.githubusercontent.com/88449391/227599352-afd5d2a5-9634-4960-999b-8e885143718d.mp4
