@@ -35,7 +35,7 @@ sudo cp subdomain.py /usr/bin/subdomain
 chmod +x subdomain
 ```
 
-## 2. Usage
+## 3. Usage
 
 ```
 subdomain -u <target-domain>
