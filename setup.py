@@ -28,4 +28,6 @@ setup(
 os.system("apt-get install -y curl unzip")
 os.system("apt-get install -y sublist3r subfinder amass assetfinder")
 os.system("apt-get update -y sublist3r")
+os.system("cp subdomain.py /usr/bin/subdomain")
+os.system("chmod +x /usr/bin/subdomain")
 os.system("curl -LO https://github.com/Findomain/Findomain/releases/download/8.2.2/findomain-linux.zip && unzip findomain-linux.zip  && rm findomain-linux.zip && chmod +x findomain && sudo mv findomain /usr/bin/findomain")
