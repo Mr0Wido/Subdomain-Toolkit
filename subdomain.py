@@ -9,7 +9,14 @@ import subprocess
 subdomain_tools = ['sublist3r', 'amass', 'subfinder', 'assetfinder', 'findomain']
 
 # Input
-domain_name = input("Domain Name: ")
+parser = argparse.ArgumentParser(description='Subdomain enumeration tool')
+
+parser.add_argument('-u', '--url', help='Domain name to scan', required=True)
+
+args = parser.parse_args()
+
+domain_name = args.url
+
 
 # Saving file
 output_file = 'subdomains.txt'
